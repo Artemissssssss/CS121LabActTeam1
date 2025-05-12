@@ -1,15 +1,15 @@
-# Vehicle Management System
+# 🚗🚲Vehicle Management System🏍️⛵
 
 ## Team Members
 
-| Name                       | GitHub                                      |
-| -------------------------- | ------------------------------------------- |
-| Castillano, Rex Anthony C. | [GitHub](https://github.com/rexanthonyyy)   |
-| Fabellar, Frances Iroll M. | [Github](https://github.com/airosiers)      |
-| Labrador, Matthew Louis G. | [Github](https://github.com/Artemissssssss) |
-| Vinluan, Philip Joshua D.  | [Github](https://github.com/philip696969)   |
+| Name                       | GitHub                                              |
+| -------------------------- | --------------------------------------------------- |
+| Castillano, Rex Anthony C. | [rexanthonyyy](https://github.com/rexanthonyyy)     |
+| Fabellar, Frances Iroll M. | [airosiers](https://github.com/airosiers)           |
+| Labrador, Matthew Louis G. | [Artemissssssss](https://github.com/Artemissssssss) |
+| Vinluan, Philip Joshua D.  | [philip696969](https://github.com/philip696969)     |
 
-## Description
+## 📋Description
 
 This system is an interactive program where users can enter details for different vehicles (Car, Bicycle, Motorcycle, and Boat) and use a menu to interact with them. It has a base class called `Vehicle` with common features like speed and passenger capacity. Each vehicle type (Car, Bicycle, Motorcycle, Boat) has its own actions, such as starting, honking, or raising sails. Users can input vehicle details and then choose from a menu to perform actions like starting the vehicle, stopping it, or getting more information. The system is simple and lets users easily explore and control different vehicles.
 
@@ -24,7 +24,7 @@ Users can input details for four vehicle types:
 
 Each vehicle has its own unique attributes and methods. The system provides interactive menus where users can perform actions like starting the vehicle, stopping it, or displaying its information. The system also adjusts options dynamically (e.g., hiding "Ring Bell" if the bicycle has no bell).
 
-# Code Snippet
+# 🧾 Code Snippet
 
 ```python
 from abc import ABC, abstractmethod
@@ -44,7 +44,7 @@ class Vehicle(ABC):
 
 ```
 
-## How to Run the Program
+## 💻⚙️💨How to Run the Program
 
 1. Make sure you have **Python 3** installed on your system.
 2. Download the file `VEHICLE.py`.
@@ -54,3 +54,7 @@ class Vehicle(ABC):
    ```bash
    python VEHICLE.py
    ```
+
+## 🎖️Acknowledgment
+
+We, Team 1, would like to express our sincere gratitude to everyone who supported us throughout the development of this project. We thank our instructor for their guidance and valuable feedback, which helped us improve our work. We also appreciate the teamwork and dedication of each team member, whose efforts made this project possible. Lastly, we are thankful for the opportunity to learn and apply our skills through this experience.
